@@ -1,0 +1,32 @@
+/* ===== Paleta azul oscuro (sobrescribe el verde por defecto) ===== */
+:root,
+[data-md-color-scheme="default"],
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #14273f;  /* azul oscuro (cabecera/menú) */
+  --md-primary-fg-color--light: #24466f;
+  --md-primary-fg-color--dark:  #0d1a2c;
+  --md-primary-bg-color:        #ffffff;
+  --md-primary-bg-color--light: rgba(255,255,255,.7);
+  --md-accent-fg-color:         #4d8fd6;  /* enlaces al pasar el ratón, foco */
+  --md-typeset-a-color:         #4d8fd6;  /* color de enlaces */
+}
+
+/* ===== Ocultar la tabla de contenidos de la derecha ===== */
+.md-sidebar--secondary { display: none !important; }
+
+/* ===== Jerarquía del menú lateral ===== */
+.md-nav__item--section > .md-nav__link,
+.md-nav__item--nested  > .md-nav__link {
+  font-weight: 600;
+}
+.md-nav .md-nav .md-nav .md-nav .md-nav__link {
+  font-weight: 400;
+  opacity: .82;
+}
+
+/* ===== Capturas con borde suave ===== */
+.md-typeset img {
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.25);
+  max-width: 100%;
+}
