@@ -1,0 +1,62 @@
+site_name: Scarlgyx Cybersecurity
+site_description: Repositorio personal de ciberseguridad ofensiva
+site_url: https://scarlgyx.github.io/scarlgyx-cybersecurity/
+repo_url: https://github.com/scarlgyx/scarlgyx-cyersecurity
+repo_name: scarlgyx/scarlgyx-cybersecurity
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo claro
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo oscuro
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      lang: es
+  - awesome-pages
+
+extra_css:
+  - assets/stylesheets/extra.css
