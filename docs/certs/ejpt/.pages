@@ -1,0 +1,8 @@
+title: eJPT
+nav:
+  - index.md
+  - assessment-methodologies
+  - host-network-pentest
+  - windows-post-exploitation
+  - linux-post-exploitation
+  - armitage

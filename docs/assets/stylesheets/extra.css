@@ -30,3 +30,14 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.25);
   max-width: 100%;
 }
+
+/* Que el nombre del repo no se recorte */
+.md-header__source {
+  width: auto;
+  max-width: none;
+}
+.md-source__repository {
+  max-width: none;
+  overflow: visible;
+  text-overflow: unset;
+}

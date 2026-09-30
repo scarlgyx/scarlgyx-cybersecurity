@@ -1,7 +1,7 @@
 site_name: Scarlgyx Cybersecurity
 site_description: Repositorio personal de ciberseguridad ofensiva
 site_url: https://scarlgyx.github.io/scarlgyx-cybersecurity/
-repo_url: https://github.com/scarlgyx/scarlgyx-cyersecurity
+repo_url: https://github.com/scarlgyx/scarlgyx-cybersecurity
 repo_name: scarlgyx/scarlgyx-cybersecurity
 theme:
   name: material
