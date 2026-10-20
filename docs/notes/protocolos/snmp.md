@@ -1,7 +1,6 @@
 # SNMP
 
 _Simple Network Management Protocol_
-
 Protocolo de red utilizado para monitorizar y administrar dispositivos y servidores. Permite consultar información del sistema, interfaces, configuración y otros datos expuestos por un agente SNMP.
 
 Puerto **161 UDP** → SNMP
@@ -29,10 +28,12 @@ La _community string_ es utilizada por SNMPv1/v2c para autenticar consultas.
 snmpwalk -v1 -c public target
 ```
 
-- Buscar diccionario
+- Probar con varios diccionarios
 ```bash
 find /usr/share/seclists -iname '*snmp*' -o -iname '*community*'
 ```
+	/usr/share/seclists/Discovery/SNMP/common-snmp-community-strings.txt
+	/usr/share/seclists/Discovery/SNMP/snmp-onesixtyone.txt
 
 - Buscar community strings con **onesixtyone**
 ```bash
