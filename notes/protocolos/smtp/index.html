@@ -10,10 +10,10 @@
       
       
       
-        <link rel="canonical" href="https://scarlgyx.github.io/scarlgyx-cybersecurity/notes/smb/">
+        <link rel="canonical" href="https://scarlgyx.github.io/scarlgyx-cybersecurity/notes/protocolos/smtp/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../smb/">
       
       
         <link rel="next" href="../snmp/">
@@ -22,19 +22,19 @@
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>SMB - Scarlgyx Cybersecurity</title>
+        <title>SMTP - Scarlgyx Cybersecurity</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -53,9 +53,9 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#smb" class="md-skip">
+        <a href="#smtp" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -96,7 +96,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabecera">
-    <a href="../.." title="Scarlgyx Cybersecurity" class="md-header__button md-logo" aria-label="Scarlgyx Cybersecurity" data-md-component="logo">
+    <a href="../../.." title="Scarlgyx Cybersecurity" class="md-header__button md-logo" aria-label="Scarlgyx Cybersecurity" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              SMB
+              SMTP
             
           </span>
         </div>
@@ -234,7 +234,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Scarlgyx Cybersecurity" class="md-nav__button md-logo" aria-label="Scarlgyx Cybersecurity" data-md-component="logo">
+    <a href="../../.." title="Scarlgyx Cybersecurity" class="md-nav__button md-logo" aria-label="Scarlgyx Cybersecurity" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -445,6 +445,8 @@
       
         
       
+        
+      
     
     
     
@@ -457,7 +459,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../writeups/hackthebox/" class="md-nav__link ">
+            <a href="../../../writeups/hackthebox/" class="md-nav__link ">
               
   
   
@@ -501,7 +503,35 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/alert/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/Scaffold/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scaffold
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../writeups/hackthebox/alert/" class="md-nav__link">
         
   
   
@@ -529,7 +559,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/antique/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/antique/" class="md-nav__link">
         
   
   
@@ -557,7 +587,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/apocalyst/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/apocalyst/" class="md-nav__link">
         
   
   
@@ -585,7 +615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/bashed/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/bashed/" class="md-nav__link">
         
   
   
@@ -613,7 +643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/blocky/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/blocky/" class="md-nav__link">
         
   
   
@@ -641,7 +671,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/boardlight/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/boardlight/" class="md-nav__link">
         
   
   
@@ -669,7 +699,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/bolt/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/bolt/" class="md-nav__link">
         
   
   
@@ -697,7 +727,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/cap/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/cap/" class="md-nav__link">
         
   
   
@@ -725,7 +755,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/chaos/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/chaos/" class="md-nav__link">
         
   
   
@@ -753,7 +783,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/chemistry/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/chemistry/" class="md-nav__link">
         
   
   
@@ -781,7 +811,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/code/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/code/" class="md-nav__link">
         
   
   
@@ -809,7 +839,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/cozyhosting/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/cozyhosting/" class="md-nav__link">
         
   
   
@@ -837,7 +867,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/crafty/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/crafty/" class="md-nav__link">
         
   
   
@@ -865,7 +895,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/delivery/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/delivery/" class="md-nav__link">
         
   
   
@@ -893,7 +923,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/devel/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/devel/" class="md-nav__link">
         
   
   
@@ -921,7 +951,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/devzat/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/devzat/" class="md-nav__link">
         
   
   
@@ -949,7 +979,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/driver/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/driver/" class="md-nav__link">
         
   
   
@@ -977,7 +1007,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/editorial/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/editorial/" class="md-nav__link">
         
   
   
@@ -1005,7 +1035,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/expressway/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/expressway/" class="md-nav__link">
         
   
   
@@ -1033,7 +1063,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/flustered/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/flustered/" class="md-nav__link">
         
   
   
@@ -1061,7 +1091,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/goodgames/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/goodgames/" class="md-nav__link">
         
   
   
@@ -1089,7 +1119,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/grandpa/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/grandpa/" class="md-nav__link">
         
   
   
@@ -1117,7 +1147,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/granny/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/granny/" class="md-nav__link">
         
   
   
@@ -1145,7 +1175,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/hawk/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/hawk/" class="md-nav__link">
         
   
   
@@ -1173,7 +1203,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/horizontal/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/horizontal/" class="md-nav__link">
         
   
   
@@ -1201,7 +1231,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/instant/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/instant/" class="md-nav__link">
         
   
   
@@ -1229,7 +1259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/irked/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/irked/" class="md-nav__link">
         
   
   
@@ -1257,7 +1287,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/jarvis/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/jarvis/" class="md-nav__link">
         
   
   
@@ -1285,7 +1315,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/jeeves/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/jeeves/" class="md-nav__link">
         
   
   
@@ -1313,7 +1343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/jerry/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/jerry/" class="md-nav__link">
         
   
   
@@ -1341,7 +1371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/keeper/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/keeper/" class="md-nav__link">
         
   
   
@@ -1369,7 +1399,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/knife/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/knife/" class="md-nav__link">
         
   
   
@@ -1397,7 +1427,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/lame/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/lame/" class="md-nav__link">
         
   
   
@@ -1425,7 +1455,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/legacy/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/legacy/" class="md-nav__link">
         
   
   
@@ -1453,7 +1483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/love/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/love/" class="md-nav__link">
         
   
   
@@ -1481,7 +1511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/mirai/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/mirai/" class="md-nav__link">
         
   
   
@@ -1509,7 +1539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/netmon/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/netmon/" class="md-nav__link">
         
   
   
@@ -1537,7 +1567,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/networked/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/networked/" class="md-nav__link">
         
   
   
@@ -1565,7 +1595,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/nibbles/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/nibbles/" class="md-nav__link">
         
   
   
@@ -1593,7 +1623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/nodeblog/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/nodeblog/" class="md-nav__link">
         
   
   
@@ -1621,7 +1651,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/nunchucks/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/nunchucks/" class="md-nav__link">
         
   
   
@@ -1649,7 +1679,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/permx/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/permx/" class="md-nav__link">
         
   
   
@@ -1677,7 +1707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/pilgrimage/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/pilgrimage/" class="md-nav__link">
         
   
   
@@ -1705,7 +1735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/poison/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/poison/" class="md-nav__link">
         
   
   
@@ -1733,7 +1763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/popcorn/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/popcorn/" class="md-nav__link">
         
   
   
@@ -1761,7 +1791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/previse/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/previse/" class="md-nav__link">
         
   
   
@@ -1789,7 +1819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/return/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/return/" class="md-nav__link">
         
   
   
@@ -1817,7 +1847,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/scriptkiddie/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/scriptkiddie/" class="md-nav__link">
         
   
   
@@ -1845,7 +1875,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/shocked/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/shocked/" class="md-nav__link">
         
   
   
@@ -1873,7 +1903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/solidstate/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/solidstate/" class="md-nav__link">
         
   
   
@@ -1901,7 +1931,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/spectra/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/spectra/" class="md-nav__link">
         
   
   
@@ -1929,7 +1959,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/stratosphere/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/stratosphere/" class="md-nav__link">
         
   
   
@@ -1957,7 +1987,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/tenten/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/tenten/" class="md-nav__link">
         
   
   
@@ -1985,7 +2015,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/toolbox/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/toolbox/" class="md-nav__link">
         
   
   
@@ -2013,7 +2043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/union/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/union/" class="md-nav__link">
         
   
   
@@ -2041,7 +2071,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/validation/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/validation/" class="md-nav__link">
         
   
   
@@ -2069,7 +2099,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/waldo/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/waldo/" class="md-nav__link">
         
   
   
@@ -2097,7 +2127,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/hackthebox/wingdata/" class="md-nav__link">
+      <a href="../../../writeups/hackthebox/wingdata/" class="md-nav__link">
         
   
   
@@ -2187,7 +2217,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../writeups/tryhackme/" class="md-nav__link ">
+            <a href="../../../writeups/tryhackme/" class="md-nav__link ">
               
   
   
@@ -2231,7 +2261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/basicpentesting/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/basicpentesting/" class="md-nav__link">
         
   
   
@@ -2259,7 +2289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/blaster/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/blaster/" class="md-nav__link">
         
   
   
@@ -2287,7 +2317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/blog/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/blog/" class="md-nav__link">
         
   
   
@@ -2315,7 +2345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/blue/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/blue/" class="md-nav__link">
         
   
   
@@ -2343,7 +2373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/bolt/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/bolt/" class="md-nav__link">
         
   
   
@@ -2371,7 +2401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/chillhack/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/chillhack/" class="md-nav__link">
         
   
   
@@ -2399,7 +2429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/chocolatefactory/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/chocolatefactory/" class="md-nav__link">
         
   
   
@@ -2427,7 +2457,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/colddbox/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/colddbox/" class="md-nav__link">
         
   
   
@@ -2455,7 +2485,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/corridor/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/corridor/" class="md-nav__link">
         
   
   
@@ -2483,7 +2513,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/easypeasy/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/easypeasy/" class="md-nav__link">
         
   
   
@@ -2511,7 +2541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/ice/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/ice/" class="md-nav__link">
         
   
   
@@ -2539,7 +2569,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/ignite/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/ignite/" class="md-nav__link">
         
   
   
@@ -2567,7 +2597,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/mrrobotctf/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/mrrobotctf/" class="md-nav__link">
         
   
   
@@ -2595,7 +2625,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/picklerick/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/picklerick/" class="md-nav__link">
         
   
   
@@ -2623,7 +2653,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/rootme/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/rootme/" class="md-nav__link">
         
   
   
@@ -2651,7 +2681,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/startup/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/startup/" class="md-nav__link">
         
   
   
@@ -2679,7 +2709,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/takeover/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/takeover/" class="md-nav__link">
         
   
   
@@ -2707,7 +2737,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/tryhackme/vulnversity/" class="md-nav__link">
+      <a href="../../../writeups/tryhackme/vulnversity/" class="md-nav__link">
         
   
   
@@ -2773,7 +2803,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../writeups/vulnhub/" class="md-nav__link ">
+            <a href="../../../writeups/vulnhub/" class="md-nav__link ">
               
   
   
@@ -2817,7 +2847,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/vulnhub/darkhole1/" class="md-nav__link">
+      <a href="../../../writeups/vulnhub/darkhole1/" class="md-nav__link">
         
   
   
@@ -2845,7 +2875,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/vulnhub/darkhole2/" class="md-nav__link">
+      <a href="../../../writeups/vulnhub/darkhole2/" class="md-nav__link">
         
   
   
@@ -2873,7 +2903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/vulnhub/election1/" class="md-nav__link">
+      <a href="../../../writeups/vulnhub/election1/" class="md-nav__link">
         
   
   
@@ -2901,7 +2931,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/vulnhub/hackmeplease1/" class="md-nav__link">
+      <a href="../../../writeups/vulnhub/hackmeplease1/" class="md-nav__link">
         
   
   
@@ -2929,7 +2959,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/vulnhub/insanity1/" class="md-nav__link">
+      <a href="../../../writeups/vulnhub/insanity1/" class="md-nav__link">
         
   
   
@@ -2957,7 +2987,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/vulnhub/symfonos1/" class="md-nav__link">
+      <a href="../../../writeups/vulnhub/symfonos1/" class="md-nav__link">
         
   
   
@@ -3061,7 +3091,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../writeups/dockerlabs/" class="md-nav__link ">
+            <a href="../../../writeups/dockerlabs/" class="md-nav__link ">
               
   
   
@@ -3105,7 +3135,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/aguademayo/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/aguademayo/" class="md-nav__link">
         
   
   
@@ -3133,7 +3163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/amor/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/amor/" class="md-nav__link">
         
   
   
@@ -3161,7 +3191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/anonymouspingu/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/anonymouspingu/" class="md-nav__link">
         
   
   
@@ -3189,7 +3219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/borazuwarahctf/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/borazuwarahctf/" class="md-nav__link">
         
   
   
@@ -3217,7 +3247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/breakmyssh/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/breakmyssh/" class="md-nav__link">
         
   
   
@@ -3245,7 +3275,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/buscalove/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/buscalove/" class="md-nav__link">
         
   
   
@@ -3273,7 +3303,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/candy/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/candy/" class="md-nav__link">
         
   
   
@@ -3301,7 +3331,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/chocolatelove/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/chocolatelove/" class="md-nav__link">
         
   
   
@@ -3329,7 +3359,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/consolelog/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/consolelog/" class="md-nav__link">
         
   
   
@@ -3357,7 +3387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/dockerlabs/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/dockerlabs/" class="md-nav__link">
         
   
   
@@ -3385,7 +3415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/escolares/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/escolares/" class="md-nav__link">
         
   
   
@@ -3413,7 +3443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/firsthacking/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/firsthacking/" class="md-nav__link">
         
   
   
@@ -3441,7 +3471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/hedgehog/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/hedgehog/" class="md-nav__link">
         
   
   
@@ -3469,7 +3499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/hiddencat/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/hiddencat/" class="md-nav__link">
         
   
   
@@ -3497,7 +3527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/injection/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/injection/" class="md-nav__link">
         
   
   
@@ -3525,7 +3555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/jenkhack/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/jenkhack/" class="md-nav__link">
         
   
   
@@ -3553,7 +3583,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/library/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/library/" class="md-nav__link">
         
   
   
@@ -3581,7 +3611,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/los40ladrones/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/los40ladrones/" class="md-nav__link">
         
   
   
@@ -3609,7 +3639,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/obsession/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/obsession/" class="md-nav__link">
         
   
   
@@ -3637,7 +3667,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/pntopntobarra/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/pntopntobarra/" class="md-nav__link">
         
   
   
@@ -3665,7 +3695,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/pressenter/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/pressenter/" class="md-nav__link">
         
   
   
@@ -3693,7 +3723,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/tproot/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/tproot/" class="md-nav__link">
         
   
   
@@ -3721,7 +3751,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/trust/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/trust/" class="md-nav__link">
         
   
   
@@ -3749,7 +3779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/vacaciones/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/vacaciones/" class="md-nav__link">
         
   
   
@@ -3777,7 +3807,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/dockerlabs/vulnvault/" class="md-nav__link">
+      <a href="../../../writeups/dockerlabs/vulnvault/" class="md-nav__link">
         
   
   
@@ -3833,7 +3863,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../writeups/overthewire/" class="md-nav__link ">
+            <a href="../../../writeups/overthewire/" class="md-nav__link ">
               
   
   
@@ -3877,7 +3907,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writeups/overthewire/bandit/" class="md-nav__link">
+      <a href="../../../writeups/overthewire/bandit/" class="md-nav__link">
         
   
   
@@ -3940,7 +3970,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../certs/" class="md-nav__link ">
+            <a href="../../../certs/" class="md-nav__link ">
               
   
   
@@ -4012,7 +4042,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../certs/ejpt/" class="md-nav__link ">
+            <a href="../../../certs/ejpt/" class="md-nav__link ">
               
   
   
@@ -4113,7 +4143,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/assessment-methodologies/01-information-gathering-ctf-1/" class="md-nav__link">
+      <a href="../../../certs/ejpt/assessment-methodologies/01-information-gathering-ctf-1/" class="md-nav__link">
         
   
   
@@ -4141,7 +4171,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/assessment-methodologies/02-footprinting-and-scanning-ctf-1/" class="md-nav__link">
+      <a href="../../../certs/ejpt/assessment-methodologies/02-footprinting-and-scanning-ctf-1/" class="md-nav__link">
         
   
   
@@ -4169,7 +4199,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/assessment-methodologies/03-enumeration-ctf-1/" class="md-nav__link">
+      <a href="../../../certs/ejpt/assessment-methodologies/03-enumeration-ctf-1/" class="md-nav__link">
         
   
   
@@ -4197,7 +4227,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/assessment-methodologies/04-vulnerability-assessment-ctf-1/" class="md-nav__link">
+      <a href="../../../certs/ejpt/assessment-methodologies/04-vulnerability-assessment-ctf-1/" class="md-nav__link">
         
   
   
@@ -4302,7 +4332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/host-network-pentest/01-system-host-based-attacks-ctf-1/" class="md-nav__link">
+      <a href="../../../certs/ejpt/host-network-pentest/01-system-host-based-attacks-ctf-1/" class="md-nav__link">
         
   
   
@@ -4330,7 +4360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/host-network-pentest/02-system-host-based-attacks-ctf-2/" class="md-nav__link">
+      <a href="../../../certs/ejpt/host-network-pentest/02-system-host-based-attacks-ctf-2/" class="md-nav__link">
         
   
   
@@ -4358,7 +4388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/host-network-pentest/03-network-based-attacks-ctf-1/" class="md-nav__link">
+      <a href="../../../certs/ejpt/host-network-pentest/03-network-based-attacks-ctf-1/" class="md-nav__link">
         
   
   
@@ -4386,7 +4416,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/host-network-pentest/04-metasploit-ctf-1/" class="md-nav__link">
+      <a href="../../../certs/ejpt/host-network-pentest/04-metasploit-ctf-1/" class="md-nav__link">
         
   
   
@@ -4414,7 +4444,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/host-network-pentest/05-metasploit-ctf-2/" class="md-nav__link">
+      <a href="../../../certs/ejpt/host-network-pentest/05-metasploit-ctf-2/" class="md-nav__link">
         
   
   
@@ -4442,7 +4472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/host-network-pentest/06-exploitation-ctf-1/" class="md-nav__link">
+      <a href="../../../certs/ejpt/host-network-pentest/06-exploitation-ctf-1/" class="md-nav__link">
         
   
   
@@ -4470,7 +4500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/host-network-pentest/07-exploitation-ctf-2/" class="md-nav__link">
+      <a href="../../../certs/ejpt/host-network-pentest/07-exploitation-ctf-2/" class="md-nav__link">
         
   
   
@@ -4498,7 +4528,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/host-network-pentest/08-exploitation-ctf-3/" class="md-nav__link">
+      <a href="../../../certs/ejpt/host-network-pentest/08-exploitation-ctf-3/" class="md-nav__link">
         
   
   
@@ -4526,7 +4556,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/host-network-pentest/09-post-exploitation-ctf-1/" class="md-nav__link">
+      <a href="../../../certs/ejpt/host-network-pentest/09-post-exploitation-ctf-1/" class="md-nav__link">
         
   
   
@@ -4554,7 +4584,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/host-network-pentest/10-post-exploitation-ctf-2/" class="md-nav__link">
+      <a href="../../../certs/ejpt/host-network-pentest/10-post-exploitation-ctf-2/" class="md-nav__link">
         
   
   
@@ -4649,7 +4679,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/windows-post-exploitation/01-windows-post-exploitation/" class="md-nav__link">
+      <a href="../../../certs/ejpt/windows-post-exploitation/01-windows-post-exploitation/" class="md-nav__link">
         
   
   
@@ -4677,7 +4707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/windows-post-exploitation/02-exploiting-smb-with-psexec/" class="md-nav__link">
+      <a href="../../../certs/ejpt/windows-post-exploitation/02-exploiting-smb-with-psexec/" class="md-nav__link">
         
   
   
@@ -4705,7 +4735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/windows-post-exploitation/03-enabling-remote-desktop/" class="md-nav__link">
+      <a href="../../../certs/ejpt/windows-post-exploitation/03-enabling-remote-desktop/" class="md-nav__link">
         
   
   
@@ -4733,7 +4763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/windows-post-exploitation/04-file-and-keylogging/" class="md-nav__link">
+      <a href="../../../certs/ejpt/windows-post-exploitation/04-file-and-keylogging/" class="md-nav__link">
         
   
   
@@ -4761,7 +4791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/windows-post-exploitation/05-pivoting/" class="md-nav__link">
+      <a href="../../../certs/ejpt/windows-post-exploitation/05-pivoting/" class="md-nav__link">
         
   
   
@@ -4854,7 +4884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/linux-post-exploitation/01-post-exploitation-lab-i/" class="md-nav__link">
+      <a href="../../../certs/ejpt/linux-post-exploitation/01-post-exploitation-lab-i/" class="md-nav__link">
         
   
   
@@ -4882,7 +4912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/linux-post-exploitation/02-privilege-escalation-rootkit-scanner/" class="md-nav__link">
+      <a href="../../../certs/ejpt/linux-post-exploitation/02-privilege-escalation-rootkit-scanner/" class="md-nav__link">
         
   
   
@@ -4910,7 +4940,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/linux-post-exploitation/03-post-exploitation-lab-ii/" class="md-nav__link">
+      <a href="../../../certs/ejpt/linux-post-exploitation/03-post-exploitation-lab-ii/" class="md-nav__link">
         
   
   
@@ -4938,7 +4968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/linux-post-exploitation/04-establishing-persistence-on-linux/" class="md-nav__link">
+      <a href="../../../certs/ejpt/linux-post-exploitation/04-establishing-persistence-on-linux/" class="md-nav__link">
         
   
   
@@ -5027,7 +5057,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/armitage/01-port-scanning-and-enumeration-with-armitage/" class="md-nav__link">
+      <a href="../../../certs/ejpt/armitage/01-port-scanning-and-enumeration-with-armitage/" class="md-nav__link">
         
   
   
@@ -5055,7 +5085,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../certs/ejpt/armitage/02-exploitation-and-post-exploitation-with-armitage/" class="md-nav__link">
+      <a href="../../../certs/ejpt/armitage/02-exploitation-and-post-exploitation-with-armitage/" class="md-nav__link">
         
   
   
@@ -5130,7 +5160,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   
@@ -5175,15 +5205,382 @@
   
   
   
-    <li class="md-nav__item md-nav__item--active">
+    
+    
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
+        
+          
+        
       
         
       
+        
       
-      <a href="./" class="md-nav__link md-nav__link--active">
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Protocolos
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Protocolos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DNS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../imap-pop3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IMAP / POP3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ipmi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IPMI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mssql/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MSSQL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mysql/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MySQL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nfs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NFS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oracle-tns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oracle TNS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../r-services/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    R-Services
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rdp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RDP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rsync/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rsync
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../smb/" class="md-nav__link">
         
   
   
@@ -5199,6 +5596,124 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SMTP
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SMTP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#comandos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comandos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuracion-peligrosa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuración peligrosa
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#footprinting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Footprinting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interaccion-manual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interacción manual
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -5220,6 +5735,126 @@
     
   
     SNMP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ssh/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SSH
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../winrm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Winrm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wmi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WMI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../file-transfers-linux/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transferencia de archivos en Linux
   
 
     
@@ -5277,7 +5912,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../scripts/" class="md-nav__link ">
+            <a href="../../../scripts/" class="md-nav__link ">
               
   
   
@@ -5321,7 +5956,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../scripts/host-discovery/" class="md-nav__link">
+      <a href="../../../scripts/host-discovery/" class="md-nav__link">
         
   
   
@@ -5349,7 +5984,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../scripts/port-discovery/" class="md-nav__link">
+      <a href="../../../scripts/port-discovery/" class="md-nav__link">
         
   
   
@@ -5377,7 +6012,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../scripts/procmon/" class="md-nav__link">
+      <a href="../../../scripts/procmon/" class="md-nav__link">
         
   
   
@@ -5405,7 +6040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../scripts/shellshock/" class="md-nav__link">
+      <a href="../../../scripts/shellshock/" class="md-nav__link">
         
   
   
@@ -5433,7 +6068,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../scripts/shellshock2/" class="md-nav__link">
+      <a href="../../../scripts/shellshock2/" class="md-nav__link">
         
   
   
@@ -5461,7 +6096,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../scripts/webdav/" class="md-nav__link">
+      <a href="../../../scripts/webdav/" class="md-nav__link">
         
   
   
@@ -5509,6 +6144,58 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#comandos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comandos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuracion-peligrosa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuración peligrosa
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#footprinting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Footprinting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interaccion-manual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interacción manual
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -5527,67 +6214,80 @@
   
 
 
-<h1 id="smb">SMB<a class="headerlink" href="#smb" title="Permanent link">&para;</a></h1>
-<p><em>Server Message Block</em>
-Protocolo de red de la capa de aplicación que permite compartir archivos, impresoras y otros recursos entre dispositivos conectados en una red local.</p>
-<p>Puerto <strong>139, 445</strong> TCP-&gt; netbios-ssn Samba</p>
+<h1 id="smtp">SMTP<a class="headerlink" href="#smtp" title="Permanent link">&para;</a></h1>
+<p><em>Simple Mail Transfer Protocol</em>
+Protocolo para enviar correos en una red IP. Se usa entre el cliente de correo y el servidor de salida, o entre dos servidores SMTP (uno actúa como cliente). Se combina con IMAP o POP3, que son los que recogen el correo de la bandeja.</p>
+<p>Puerto <strong>25 TCP</strong> → SMTP (por defecto, sin cifrar)
+Puerto <strong>587 TCP</strong> → envío autenticado con STARTTLS (cifra la conexión)
+Puerto <strong>465 TCP</strong> → SMTP sobre SSL/TLS</p>
+<p>Por defecto SMTP va en texto plano (comandos, datos y credenciales visibles). Con SSL/TLS se cifra. ESMTP es la extensión moderna: tras <code>EHLO</code> se manda <code>STARTTLS</code> para cifrar y poder usar <code>AUTH PLAIN</code> de forma segura.</p>
+<p><em>Flujo del correo</em>
+* <code>MUA</code> (Mail User Agent) → el cliente, redacta el correo
+* <code>MSA</code> (Mail Submission Agent) → valida el origen (relay server)
+* <code>MTA</code> (Mail Transfer Agent) → envía/reenvía, comprueba tamaño y spam, busca en DNS la IP del destino
+* <code>MDA</code> (Mail Delivery Agent) → entrega el correo al buzón del destinatario</p>
+<p><em>Debilidades del protocolo</em>
+* No devuelve confirmación de entrega útil (solo un error en inglés si falla)
+* El remitente no se autentica al conectar → se puede falsificar (<strong>mail spoofing</strong>). Por eso los open relays se abusan para spam. Mitigaciones: SPF, DKIM, DMARC.</p>
+<h2 id="comandos">Comandos<a class="headerlink" href="#comandos" title="Permanent link">&para;</a></h2>
+<ul>
+<li><code>AUTH PLAIN</code> → autentica al cliente</li>
+<li><code>HELO</code> / <code>EHLO</code> → inicia la sesión (EHLO para ESMTP)</li>
+<li><code>MAIL FROM</code> → remitente</li>
+<li><code>RCPT TO</code> → destinatario</li>
+<li><code>DATA</code> → inicia la transmisión del cuerpo (se termina con una línea con solo <code>.</code>)</li>
+<li><code>RSET</code> → aborta el envío pero mantiene la conexión</li>
+<li><code>VRFY</code> → comprueba si existe un buzón/usuario</li>
+<li><code>EXPN</code> → comprueba si existe un buzón (listas)</li>
+<li><code>NOOP</code> → pide respuesta para no cerrar por time-out</li>
+<li><code>QUIT</code> → cierra la sesión</li>
+</ul>
+<h2 id="configuracion-peligrosa">Configuración peligrosa<a class="headerlink" href="#configuracion-peligrosa" title="Permanent link">&para;</a></h2>
+<p>El fichero de Postfix es <code>/etc/postfix/main.cf</code>. La opción clave es <code>mynetworks</code>, que define qué IPs pueden enviar a través del servidor.</p>
+<ul>
+<li>Configuración normal → <code>mynetworks = 127.0.0.0/8 10.129.0.0/16</code></li>
+<li>Open relay → <code>mynetworks = 0.0.0.0/0</code> (cualquiera puede enviar correos falsos a través del servidor)</li>
+</ul>
+<h2 id="footprinting">Footprinting<a class="headerlink" href="#footprinting" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
-<p>Enumeración de recursos con Null Session
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>smbclient<span class="w"> </span>-N<span class="w"> </span>-L<span class="w"> </span>target
+<p>Escaneo con versión y scripts (lista los comandos soportados vía <code>smtp-commands</code>)
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sudo<span class="w"> </span>nmap<span class="w"> </span>target<span class="w"> </span>-sC<span class="w"> </span>-sV<span class="w"> </span>-p25
 </span></code></pre></div></p>
 </li>
 <li>
-<p>Escaneo de usuarios
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>crackmapexec<span class="w"> </span>smb<span class="w"> </span>target<span class="w"> </span>--users
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>nmap<span class="w"> </span>-p445<span class="w"> </span>--script<span class="w"> </span>smb-enum-users.nse<span class="w"> </span>target
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>enum4linux<span class="w"> </span>-U<span class="w"> </span>target
-</span></code></pre></div></p>
-</li>
-<li>
-<p>Acceso con usuario
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>smbclient<span class="w"> </span>-L<span class="w"> </span>target<span class="w"> </span>-U<span class="w"> </span>usuario
-</span></code></pre></div></p>
-</li>
-<li>
-<p>Acceso a recurso compartido -l
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>smbclient<span class="w"> </span>-N<span class="w"> </span>//target/recurso
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>smbclient<span class="w"> </span>//target/recurso<span class="w"> </span>-U<span class="w"> </span>usuario%pass
-</span></code></pre></div></p>
-</li>
-<li>
-<p>Bruteforcear credenciales
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>crackmapexec<span class="w"> </span>smb<span class="w"> </span>target<span class="w"> </span>-u<span class="w"> </span>usuario/s<span class="w"> </span>-p<span class="w"> </span>contraseña/s<span class="w"> </span>--continue-on-success<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">'\[+\]'</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>hydra<span class="w"> </span>-l<span class="w"> </span>usuario<span class="w"> </span>-P<span class="w"> </span>contraseñas<span class="w"> </span>target<span class="w"> </span>smb
-</span></code></pre></div></p>
-</li>
-<li>
-<p>Descubrir recursos compartido con credenciales
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>smbmap<span class="w"> </span>-r<span class="w"> </span>-u<span class="w"> </span>usuario<span class="w"> </span>-p<span class="w"> </span>contraseña<span class="w"> </span>-H<span class="w"> </span>target
-</span></code></pre></div></p>
-</li>
-<li>
-<p>Fuzzear recursos compartidos ocultos con diccionario
-<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>#!/bin/bash
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>shares=$(cat diccionario.txt)
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>for i in shares; do
-</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>    echo "[+] Probando $i"
-</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>    smbclient -N //target/$i
-</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>done;
-</span></code></pre></div></p>
-</li>
-<li>
-<p>Pass the Hash
-NTLM Hash = LM_Hash:NT_Hash
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>crackmapexec<span class="w"> </span>smb<span class="w"> </span>target<span class="w"> </span>-u<span class="w"> </span>usuario<span class="w"> </span>-H<span class="w"> </span><span class="s1">'hash'</span>
+<p>Detectar open relay (16 tests)
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sudo<span class="w"> </span>nmap<span class="w"> </span>target<span class="w"> </span>-p25<span class="w"> </span>--script<span class="w"> </span>smtp-open-relay<span class="w"> </span>-v
 </span></code></pre></div></p>
 </li>
 </ul>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>smbclient<span class="w"> </span>//target.ine.local/ITResources<span class="w"> </span>-U<span class="w"> </span>nancy<span class="w"> </span>--pw-nt-hash<span class="w"> </span>NT_Hash
-</span></code></pre></div>
-<p>-&gt; Solo parte variable del hash</p>
+<h2 id="interaccion-manual">Interacción manual<a class="headerlink" href="#interaccion-manual" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>Conectar con telnet e iniciar sesión
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>telnet<span class="w"> </span>target<span class="w"> </span><span class="m">25</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>HELO<span class="w"> </span>mail1.inlanefreight.htb
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>EHLO<span class="w"> </span>mail1
+</span></code></pre></div></p>
+</li>
+<li>
+<p>Enumerar usuarios con VRFY (ojo: según config puede devolver <code>252</code> y confirmar usuarios que no existen → no fiarse del todo)
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>VRFY<span class="w"> </span>root
+</span></code></pre></div></p>
+</li>
+<li>
+<p>Enviar un correo manualmente
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>MAIL<span class="w"> </span>FROM:<span class="w"> </span>&lt;cry0l1t3@inlanefreight.htb&gt;
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>RCPT<span class="w"> </span>TO:<span class="w"> </span>&lt;mrb3n@inlanefreight.htb&gt;
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>DATA
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>Subject:<span class="w"> </span>prueba
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>...texto...
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>.
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>QUIT
+</span></code></pre></div></p>
+</li>
+</ul>
+<p>Nota: vía proxy web se puede forzar la conexión con <code>CONNECT target:25 HTTP/1.0</code>.</p>
 
 
 
@@ -5643,10 +6343,10 @@ NTLM Hash = LM_Hash:NT_Hash
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.code.annotate", "content.tooltips"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.code.annotate", "content.tooltips"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>
